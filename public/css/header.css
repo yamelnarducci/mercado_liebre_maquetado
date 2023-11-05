@@ -15,26 +15,53 @@ header p {
     display: inline;
     margin-left: 5%;
     line-height: 21px;
+    
 }
 
-header nav ul a {
+nav ul a {
     color: black;
+}
+
+.header__nav__menu {
+    color: black;
+    margin-bottom: 15px;
+    
+}
+
+.header__nav__menu ul li {
+    font-size: 15px;
+    
+}
+
+.header__nav__ingreso {
+    margin-bottom: 15px;
+}
+
+.header__nav__ingreso ul il {
+    font-size: 15px;
+}
+
+.header__nav__ingreso i {
+    margin-left: 5px;
 }
 
 img {
     width: 100%;
 }
 
-header .burger-menu {
+.header__div__burguer {
+
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
-header .burger-menu a {
-    background-color: var(--Celeste);
+.header__div__burguer a {
+    background-color: var(--colorCeleste);
     color: white;
     border-radius: 5px;
-    padding: 7px 10px;
-    font-size: 1.5rem;
-    margin: 20px;
+    padding: 7.5px 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
 }

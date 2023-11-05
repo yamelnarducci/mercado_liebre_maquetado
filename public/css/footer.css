@@ -1,14 +1,15 @@
 footer section {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     align-items: center;
     color: var(--GrisOscuro);
+    margin-top: 20px;
 }
 
 footer section i {
     font-size: 2rem;
-    color: var(--Celeste)
+    color: var(--colorCeleste)
 }
 
 footer section p {
@@ -19,6 +20,7 @@ footer section p {
 }
 
 footer .Copyright {
-    display: block;
-    margin: 20px;
+    
+    margin-top: 10px;
+    text-align: left;
 }
