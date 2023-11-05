@@ -12,6 +12,7 @@
     font-family: var(--tipografiaGeneral);
     max-width: 1140px;
     width: auto;
+    background-color: var(--colorGrisClaro);
     
   }
 

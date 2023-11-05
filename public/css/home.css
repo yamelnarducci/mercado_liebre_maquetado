@@ -1,15 +1,72 @@
 h2 {
     font-size: 24px;
+    margin-top: 10px;
 }
 
-.Descripcion p {
+.Descripcion  {
+    padding: 10px;
+    border-top: 1px solid var(--colorGrisClaro);
+}
+
+.Descripcion i {
+    font-size: 10px;
+    border: 1px solid var(--Verde);
+    border-radius: 100px;
+    color: var(--ColorVerde);
+    padding: 10px 9px;
+}
+
+.Descripcion .precio {
     font-size: 18px;
 }
 
-.Descripcion h3 {
+.Descripcion .descuento {
     font-size: 16px;
+    color: var(--ColorVerde);
+}
+
+.Descripcion .producto {
+    display: none;
 }
 
 main {
-    background-color: var(--GrisClaro);
+    background-color: var(--colorGrisClaro);
+    width: 90%;
+    margin: 0 5%;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main section article {
+    background-color: white;
+}
+
+@media (min-width: 361px){
+    .Descripcion .producto {
+        display: block;
+        font-size: 16px;
+        color: var(--GrisOscuro);
+        margin-top: 15px;
+    }
+
+    main section article {
+        box-shadow: 0px 0px 10px #646464;;
+    }
+}
+
+@media (min-width: 769px){
+    .Descripcion .producto {
+        display: block;
+        font-size: 16px;
+        color: var(--GrisOscuro);
+        margin-top: 15px;
+    }
+
+    main section article {
+        box-shadow: 0px 0px 10px #646464;;
+    }
 }

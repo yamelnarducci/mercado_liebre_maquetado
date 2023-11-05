@@ -1,10 +1,8 @@
-footer section {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    align-items: center;
-    color: var(--GrisOscuro);
-    margin-top: 20px;
+footer section{
+    color: var(--colorGrisOscuro);
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
 }
 
 footer section i {
@@ -13,14 +11,12 @@ footer section i {
 }
 
 footer section p {
-    display: flex;
     font-size: small;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
+
 }
 
 footer .Copyright {
-    
-    margin-top: 10px;
-    text-align: left;
+    display: block;
+    margin: 20px;
 }
