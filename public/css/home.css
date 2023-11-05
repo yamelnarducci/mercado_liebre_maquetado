@@ -1,7 +1,15 @@
-main h3 {
+h2 {
     font-size: 24px;
 }
 
-main p {
+.Descripcion p {
+    font-size: 18px;
+}
+
+.Descripcion h3 {
     font-size: 16px;
+}
+
+main {
+    background-color: var(--GrisClaro);
 }

@@ -1,42 +1,40 @@
-header{
+header {
     background-color: var(--colorAmarillo);
 }
 
-.header__div__logo{
-   margin-left: 20px;
-}
-
-.header__div__barra{
-    margin-left: 20px;
-}
-
-.header__div__titulo{
-    margin-left: 50px;
-    font-size: 12px;
-    font-weight: 100;
+header p {
     display: flex;
-    align-items: center;
+    justify-self: center;
 }
 
-.header__div__titulo a{
+.searchbar p,
+.searchbar a {
+    background-color: var(--colorGrisClaro);
+    border: var(--colorGrisOscuro) 1px solid;
+    border-radius: 2px;
+    display: inline;
+    margin-left: 5%;
+    line-height: 21px;
+}
+
+header nav ul a {
     color: black;
 }
 
-.header__nav__ingreso{
-    font-size: 12px;
-    font-weight: 100;
-    display: flex;
-    align-items: center;
+img {
+    width: 100%;
 }
 
+header .burger-menu {
+    display: flex;
+    justify-content: center;
+}
 
-.header__div__burguer i{
-    font-size: 20px;
+header .burger-menu a {
+    background-color: var(--Celeste);
     color: white;
-    margin-bottom: 20px;
-    margin-left: 180px;
-    background-color: var(--colorCeleste);
-    padding: 7.5px 10px;
     border-radius: 5px;
-    display: inline-block;
+    padding: 7px 10px;
+    font-size: 1.5rem;
+    margin: 20px;
 }

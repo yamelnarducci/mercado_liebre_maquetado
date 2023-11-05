@@ -1,23 +1,24 @@
-footer{
-    text-align: center;
-    }
-    
-    footer i{
-        font-size: 2em;
-        color: var(--colorCeleste);
-        margin-bottom: 10px;
-        margin-top: 20px;
-    }
-    
-    footer h3{
-        margin-bottom: 0;
-    }
-    
-    footer p{
-        font-size: 3vw;
-        margin-top: 0;
-    }
-    
-    .footer__section_copy{
-        text-align: left;
-    }
+footer section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+    color: var(--GrisOscuro);
+}
+
+footer section i {
+    font-size: 2rem;
+    color: var(--Celeste)
+}
+
+footer section p {
+    display: flex;
+    font-size: small;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .Copyright {
+    display: block;
+    margin: 20px;
+}
