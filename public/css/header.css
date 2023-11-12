@@ -1,102 +1,75 @@
-header {
+/* mobile */
+
+header{
     background-color: var(--colorAmarillo);
 }
 
-header p {
-    display: flex;
-    justify-self: center;
-}
+header ul li{
 
-.searchbar p {
-    background-color: var(--colorGrisClaro);
-    border: var(--colorGrisOscuro) 1px solid;
-    border-radius: 2px;
-    display: inline;
-    margin-left: 1rem;
-    line-height: 21px;
-
-}
-
-.searchbar button {
-    background-color: var(--colorGrisClaro);
-    border: var(--colorGrisOscuro) 1px solid;
-    border-radius: 2px;
-    display: inline;
-}
-
-
-nav ul a {
-    color: black;
-    margin-left: 1rem;
     display: none;
 }
 
-.header__nav__menu {
-    color: black;
-    margin-bottom: 15px;
-
+.header__div__logo{
+   margin-left: 20px;
+   padding-top: 20px;
+   margin-bottom: 10px;
+   width: 45%;
 }
 
-.header__nav__menu ul li {
+.header__div__barra{
+   margin-left: 20px;
+   margin-bottom: 10px;
+   width: 45%;
+}
+
+.header__div__titulo{
     font-size: 15px;
-
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
-.header__nav__ingreso {
-    margin-bottom: 15px;
+.header__nav__menu{
+    padding-bottom: 15px;
 }
-
-.header__nav__ingreso ul il {
+.header__nav__menu ul li{
     font-size: 15px;
 }
 
-.header__nav__ingreso i {
+.header__nav__ingreso{
+ padding-bottom: 15px;
+}
+.header__nav__ingreso ul li{
+   font-size: 15px;
+}
+
+.header__nav__ingreso i{
     margin-left: 5px;
+ }
+
+.header__div__burguer {
+    display: flex;
+    justify-content: center;
 }
 
-img {
-    width: 100%;
+.header__div__burguer a{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    background-color: var(--colorCeleste);
+    padding: 7.5px 10px;
+    border-radius: 5px;    
+}
+
+@media (min-width: 768px) {
+
+header ul li{
+    display: block;
+    padding-left: 20px;
 }
 
 .header__div__burguer {
-
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    display: none;
 }
-
-.header__div__burguer a {
-    background-color: var(--colorCeleste);
-    color: white;
-    border-radius: 5px;
-    padding: 7.5px 10px;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-@media (min-width: 361px) {
-    nav ul a {
-        color: black;
-        display: block;
-    }
-
-    .header__div__burguer a {
-        visibility: hidden;
-        font-size: 1px;
-        margin: 4px;
-    }
-}
-
-@media (min-width: 769px) {
-    nav ul a {
-        color: black;
-        display: block;
-    }
-
-    .header__div__burguer a {
-        visibility: hidden;
-        font-size: 1px;
-        margin: 4px;
-    }
+    
 }
