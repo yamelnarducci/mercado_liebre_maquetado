@@ -1,67 +1,55 @@
-header {
+header{
     background-color: var(--colorAmarillo);
 }
 
-header p {
-    display: flex;
-    justify-self: center;
+.header__div__logo{
+   margin-left: 20px;
+   padding-top: 20px;
+   margin-bottom: 10px;
+   width: 45%;
 }
 
-.searchbar p,
-.searchbar a {
-    background-color: var(--colorGrisClaro);
-    border: var(--colorGrisOscuro) 1px solid;
-    border-radius: 2px;
-    display: inline;
-    margin-left: 5%;
-    line-height: 21px;
-    
+.header__div__barra{
+   margin-left: 20px;
+   margin-bottom: 10px;
+   width: 45%;
 }
 
-nav ul a {
-    color: black;
-}
-
-.header__nav__menu {
-    color: black;
-    margin-bottom: 15px;
-    
-}
-
-.header__nav__menu ul li {
+.header__div__titulo{
     font-size: 15px;
-    
-}
-
-.header__nav__ingreso {
-    margin-bottom: 15px;
-}
-
-.header__nav__ingreso ul il {
-    font-size: 15px;
-}
-
-.header__nav__ingreso i {
-    margin-left: 5px;
-}
-
-img {
-    width: 100%;
-}
-
-.header__div__burguer {
-
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
-.header__div__burguer a {
-    background-color: var(--colorCeleste);
-    color: white;
-    border-radius: 5px;
-    padding: 7.5px 10px;
+.header__nav__menu{
+margin-bottom: 15px;
+}
+.header__nav__menu ul li{
+    font-size: 15px;
+}
+
+.header__nav__ingreso{
+  margin-bottom: 15px;
+}
+.header__nav__ingreso ul li{
+   font-size: 15px;
+}
+
+.header__nav__ingreso i{
+    margin-left: 5px;
+ }
+
+.header__div__burguer {
+    display: flex;
+    justify-content: center;
+}
+
+.header__div__burguer a{
     font-size: 20px;
+    color: white;
     margin-bottom: 20px;
+    background-color: var(--colorCeleste);
+    padding: 7.5px 10px;
+    border-radius: 5px;    
 }

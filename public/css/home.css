@@ -1,15 +1,23 @@
-h2 {
+.home__main  h3{
     font-size: 24px;
 }
 
-.Descripcion p {
+.home__main h6{
     font-size: 18px;
 }
 
-.Descripcion h3 {
+.home__main p{
     font-size: 16px;
 }
 
-main {
-    background-color: var(--GrisClaro);
+.home__main h5{
+    font-size: 20px;
 }
+
+.home__main img {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+
