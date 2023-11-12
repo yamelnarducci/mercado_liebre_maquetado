@@ -11,6 +11,8 @@
     --colorGrisOscuro: #666;
     --colorGrisClaro: #ebebeb;
     --colorVerde: #39b54a;
+    --colorRojo : #e74c3c;
+    --colorBlanco : #ffffff; 
     --tipografiaGeneral: "Roboto", sans-serif;
   }
 
@@ -34,4 +36,38 @@ a{
 
 ul{
     padding-left: 0;
+}
+
+.box__end {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.box__card {
+  max-width: 1440px;
+  width: 90%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px #282727;
+  border-radius: 5px;
+}
+
+.box__card--simple {
+  max-width: 320px;
+}
+
+.box__card--double {
+  max-width: 768px;
+}
+
+.box__card--title {
+  margin-bottom: 30px;
+  text-align: start;
+}
+
+.link {
+  color: var(--colorRojo);
 }
