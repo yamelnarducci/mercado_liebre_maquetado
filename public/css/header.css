@@ -7,6 +7,7 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+    
 }
 
 header ul li {
@@ -94,7 +95,7 @@ header ul li {
 
 @media (min-width: 768px) {
 
-    header ul li {
+   header ul li {
         display: block;
         padding-left: 20px;
     }
